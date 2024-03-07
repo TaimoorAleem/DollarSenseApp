@@ -6,8 +6,22 @@ import {
     TableHeader,
     TableRow,
   } from "@/components/ui/table"
+
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
 import { Button } from "./ui/button"
 import { PlusCircle } from "lucide-react"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
   
 
 const RecentTransactions = () => {
@@ -15,14 +29,52 @@ const RecentTransactions = () => {
     <div>
         <div className="flex flex-row justify-between items-center m-2">
           <h2 className="align-middle">Your Recent Transactions</h2>
-          <Button variant={"outline"} className="align-middle">
-            <PlusCircle className="mr-2 h-4 w-4" /> Add New
-          </Button>
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline"><PlusCircle className="mr-2 h-4 w-4" /> Add New</Button>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-[425px]">
+              <DialogHeader>
+                <DialogTitle>Create Transaction</DialogTitle>
+                <DialogDescription>
+                  Please enter the following transactional details.
+                </DialogDescription>
+              </DialogHeader>
+              <div className="grid gap-4 py-4">
+                <div className="grid grid-cols-4 items-center gap-4">
+                  <Label htmlFor="transaction-name" className="text-right">
+                    Name
+                  </Label>
+                  <Input
+                    id="transaction-name"
+                    placeholder="Groceries"
+                    className="col-span-3"
+                  />
+                </div>
+                <div className="grid grid-cols-4 items-center gap-4">
+                  <Label htmlFor="transaction-amount" className="text-right">
+                    Amount
+                  </Label>
+                  <Input
+                    id="transaction-amount"
+                    placeholder="$50.00"
+                    className="col-span-3"
+                  />
+                </div>
+              </div>
+              <DialogFooter>
+                <DialogClose asChild>
+                  <Button type="submit">Add</Button>
+                </DialogClose>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </div>
+
         <Table className="bg-secondary rounded-xl p-4">
             <TableHeader>
                 <TableRow>
-                <TableHead className="text-left w-[100px] px-6 py-3 w-1/2">Transaction Name</TableHead>
+                <TableHead className="text-left px-6 py-3 w-1/2">Transaction Name</TableHead>
                 <TableHead className="text-right px-6 py-3 w-1/4">Amount</TableHead>
                 </TableRow>
             </TableHeader>
