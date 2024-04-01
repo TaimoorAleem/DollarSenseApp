@@ -29,6 +29,7 @@ const RecentTransactions = () => {
     <div>
         <div className="flex flex-row justify-between align-middle items-center m-2 h-10">
           <h2>Your Recent Transactions</h2>
+          <div>
           <Dialog>
             <DialogTrigger asChild>
               <Button variant="outline"><PlusCircle className="mr-2 h-4 w-4" /> Add New</Button>
@@ -79,6 +80,7 @@ const RecentTransactions = () => {
               </DialogFooter>
             </DialogContent>
           </Dialog>
+          </div>
         </div>
 
         <Table className="bg-secondary rounded-xl p-4 mt-2">

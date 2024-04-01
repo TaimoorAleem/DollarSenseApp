@@ -4,7 +4,7 @@ import WelcomePage from './pages/WelcomePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import Dashboard from './pages/Dashboard';
-
+import YearlyReport from './pages/YearlyReport';
 
 function App() {
   return (
