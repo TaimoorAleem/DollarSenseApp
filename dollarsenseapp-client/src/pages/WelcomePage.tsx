@@ -6,10 +6,10 @@ const WelcomePage = () => {
     <>
       <nav className="bg-background py-4 text-base text-center">
           <div className="flex flex-row justify-center items-center space-x-9">
-            <Link to="/dashboard" className="text-foreground hover:text-primary active:text-primary">
+            <Link to="/login" className="text-foreground hover:text-primary active:text-primary">
               Login
             </Link>
-            <Link to="/dashboard" className="text-foreground hover:text-primary active:text-primary">
+            <Link to="/register" className="text-foreground hover:text-primary active:text-primary">
               Register
             </Link>
           </div>
