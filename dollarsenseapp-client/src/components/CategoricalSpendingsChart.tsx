@@ -33,7 +33,7 @@ const CategoricalSpendingsChart = () => {
   return (
     <>
     <div className="flex flex-row justify-between align-middle items-center m-2 h-10">March 2024's Categorical Distribution</div>
-    <div style={{ width: '600px', height: '400px' }} className='mt-5'> {/* Adjust the width and height as needed */}
+    <div style={{ width: '600px', height: '350px' }} className='my-5'> {/* Adjust the width and height as needed */}
         <Pie 
             data={data} 
             options={{ maintainAspectRatio: false }} // Add this to maintain the aspect ratio

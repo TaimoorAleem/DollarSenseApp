@@ -19,70 +19,67 @@ import {
 } from "@/components/ui/dialog"
 
 import { Button } from "./ui/button"
-import { PlusCircle } from "lucide-react"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Upload } from "lucide-react"
+import axios from "axios"
   
 
 const RecentTransactions = () => {
+  const handleFileUpload = (event) => {
+    event.preventDefault();
+    const formData = new FormData();
+    const fileField = document.querySelector('input[type="file"]');
+  
+    // Append the file to the FormData instance
+    formData.append('file', fileField.files[0]);
+  
+    // Use axios to send a post request
+    axios.post('http://127.0.0.1:5000/predict', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    })
+    .then(response => {
+      // Handle response data
+      console.log(response.data);
+    })
+    .catch(error => {
+      console.error("Error uploading the file", error);
+    });
+  };
+  
   return (
     <div>
         <div className="flex flex-row justify-between align-middle items-center m-2 h-10">
           <h2>Your Recent Transactions</h2>
-          <div>
-          <Dialog>
-            <DialogTrigger asChild>
-              <Button variant="outline"><PlusCircle className="mr-2 h-4 w-4" /> Add New</Button>
-            </DialogTrigger>
-            <DialogContent className="sm:max-w-[425px]">
-              <DialogHeader>
-                <DialogTitle>Create Transaction</DialogTitle>
-                <DialogDescription>
-                  Please enter the following transactional details.
-                </DialogDescription>
-              </DialogHeader>
-              <div className="grid gap-4 py-4">
-                <div className="grid grid-cols-4 items-center gap-4">
-                  <Label htmlFor="transaction-name" className="text-right">
-                    Name
-                  </Label>
-                  <Input
-                    id="transaction-name"
-                    placeholder="Walmart Shopping"
-                    className="col-span-3"
-                  />
-                </div>
-                <div className="grid grid-cols-4 items-center gap-4">
-                  <Label htmlFor="transaction-category" className="text-right">
-                    Category
-                  </Label>
-                  <Input
-                    id="transaction-category"
-                    placeholder="Grocery"
-                    className="col-span-3"
-                  />
-                </div>
-                <div className="grid grid-cols-4 items-center gap-4">
-                  <Label htmlFor="transaction-amount" className="text-right">
-                    Amount
-                  </Label>
-                  <Input
-                    id="transaction-amount"
-                    placeholder="$50.00"
-                    className="col-span-3"
-                  />
-                </div>
-              </div>
-              <DialogFooter>
-                <DialogClose asChild>
-                  <Button type="submit">Add</Button>
-                </DialogClose>
-              </DialogFooter>
-            </DialogContent>
-          </Dialog>
-          </div>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="outline"><Upload className="mr-2 h-4 w-4" />Upload CSV</Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px]">
+                <DialogHeader>
+                  <DialogTitle>Upload CSV File</DialogTitle>
+                  <DialogDescription>
+                    Please upload a CSV file of your most recent transactions
+                  </DialogDescription>
+                </DialogHeader>
+                <form onSubmit={handleFileUpload}>
+                  <div className="grid gap-4 py-4">
+                    <input
+                      type="file"
+                      accept=".csv"
+                      name="file"
+                    />
+                  </div>
+                  <DialogFooter>
+                    <Button type="submit">Upload</Button>
+                    <DialogClose asChild>
+                      <Button variant="outline">Cancel</Button>
+                    </DialogClose>
+                  </DialogFooter>
+                </form>
+              </DialogContent>
+            </Dialog>
         </div>
-
         <Table className="bg-secondary rounded-xl p-4 mt-2">
           <TableHeader>
             <TableRow>
@@ -133,7 +130,7 @@ const RecentTransactions = () => {
               <TableCell className="text-right px-6 py-3">$120.00</TableCell>
             </TableRow>
           </TableBody>
-        </Table>  
+        </Table>
     </div>
   )
 }

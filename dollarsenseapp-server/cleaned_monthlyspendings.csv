@@ -1,0 +1,199 @@
+Vendor,Category,Month,Amount_Spent
+Book Emporium,Books,2023-01,45.0
+Fashion Store,Clothing,2023-01,80.5
+Fine Dining,Dining Out,2023-01,200.0
+Cineplex,Movies,2023-01,40.35
+Gizmo Store,Electronics,2023-01,75.0
+Gym Fit,Fitness,2023-01,60.75
+Local Market,Groceries,2023-01,50.25
+Cafe A,Coffee,2023-01,20.0
+Power Co.,Utilities,2023-01,100.0
+Restaurant X,Dining Out,2023-01,30.0
+Restaurant Y,Dining Out,2023-01,22.0
+Snack Haven,Snacks,2023-01,15.0
+Decor Dreams,Home Decor,2023-01,120.0
+Supermart,Groceries,2023-01,50.0
+Trendy Boutique,Clothing,2023-01,90.0
+Brew Haven,Coffee,2023-01,18.0
+Tech World,Electronics,2023-01,25.0
+Brew Haven,Coffee,2023-02,36.0
+Book Emporium,Books,2023-02,45.0
+Fashion Store,Clothing,2023-02,95.0
+Cineplex,Movies,2023-02,40.35
+Trendy Boutique,Clothing,2023-02,90.0
+Fine Dining,Dining Out,2023-02,380.5
+Gizmo Store,Electronics,2023-02,75.0
+Gym Fit,Fitness,2023-02,101.1
+Local Market,Groceries,2023-02,195.0
+Tech World,Electronics,2023-02,85.0
+Cafe A,Coffee,2023-02,35.0
+Decor Dreams,Home Decor,2023-02,190.0
+Snack Haven,Snacks,2023-02,15.0
+Supermart,Groceries,2023-02,155.0
+Restaurant X,Dining Out,2023-02,28.0
+Restaurant Y,Dining Out,2023-02,62.35
+Decor Dreams,Home Decor,2023-03,120.0
+Snack Haven,Snacks,2023-03,15.0
+Fashion Store,Clothing,2023-03,85.0
+Trendy Boutique,Clothing,2023-03,90.0
+Restaurant X,Dining Out,2023-03,35.0
+Local Market,Groceries,2023-03,80.5
+Fine Dining,Dining Out,2023-03,200.0
+Gizmo Store,Electronics,2023-03,75.0
+Tech World,Electronics,2023-03,30.0
+Supermart,Groceries,2023-03,80.5
+Restaurant Y,Dining Out,2023-03,22.0
+Power Co.,Utilities,2023-03,100.0
+Gym Fit,Fitness,2023-03,60.75
+Brew Haven,Coffee,2023-03,18.0
+Book Emporium,Books,2023-03,50.0
+Cineplex,Movies,2023-03,40.35
+Cafe A,Coffee,2023-03,20.0
+Gizmo Store,Electronics,2023-04,75.0
+Snack Haven,Snacks,2023-04,15.0
+Book Emporium,Books,2023-04,45.0
+Gym Fit,Fitness,2023-04,101.1
+Fine Dining,Dining Out,2023-04,380.5
+Trendy Boutique,Clothing,2023-04,90.0
+Cafe A,Coffee,2023-04,35.0
+Brew Haven,Coffee,2023-04,36.0
+Fashion Store,Clothing,2023-04,95.0
+Cineplex,Movies,2023-04,40.35
+Local Market,Groceries,2023-04,195.0
+Supermart,Groceries,2023-04,155.0
+Restaurant X,Dining Out,2023-04,28.0
+Restaurant Y,Dining Out,2023-04,62.35
+Decor Dreams,Home Decor,2023-04,190.0
+Tech World,Electronics,2023-04,85.0
+Cineplex,Movies,2023-05,40.35
+Gizmo Store,Electronics,2023-05,75.0
+Book Emporium,Books,2023-05,50.0
+Snack Haven,Snacks,2023-05,15.0
+Restaurant X,Dining Out,2023-05,35.0
+Gym Fit,Fitness,2023-05,60.75
+Supermart,Groceries,2023-05,80.5
+Fine Dining,Dining Out,2023-05,200.0
+Restaurant Y,Dining Out,2023-05,22.0
+Decor Dreams,Home Decor,2023-05,120.0
+Trendy Boutique,Clothing,2023-05,90.0
+Cafe A,Coffee,2023-05,20.0
+Brew Haven,Coffee,2023-05,18.0
+Power Co.,Utilities,2023-05,100.0
+Local Market,Groceries,2023-05,80.5
+Fashion Store,Clothing,2023-05,85.0
+Tech World,Electronics,2023-05,30.0
+Gym Fit,Fitness,2023-06,101.1
+Cafe A,Coffee,2023-06,35.0
+Local Market,Groceries,2023-06,195.0
+Restaurant Y,Dining Out,2023-06,62.35
+Restaurant X,Dining Out,2023-06,28.0
+Tech World,Electronics,2023-06,85.0
+Brew Haven,Coffee,2023-06,36.0
+Supermart,Groceries,2023-06,155.0
+Book Emporium,Books,2023-06,45.0
+Trendy Boutique,Clothing,2023-06,90.0
+Gizmo Store,Electronics,2023-06,75.0
+Fine Dining,Dining Out,2023-06,380.5
+Fashion Store,Clothing,2023-06,95.0
+Snack Haven,Snacks,2023-06,15.0
+Decor Dreams,Home Decor,2023-06,190.0
+Cineplex,Movies,2023-06,40.35
+Local Market,Groceries,2023-07,80.5
+Tech World,Electronics,2023-07,30.0
+Book Emporium,Books,2023-07,50.0
+Trendy Boutique,Clothing,2023-07,90.0
+Decor Dreams,Home Decor,2023-07,120.0
+Brew Haven,Coffee,2023-07,18.0
+Cineplex,Movies,2023-07,40.35
+Restaurant X,Dining Out,2023-07,35.0
+Supermart,Groceries,2023-07,80.5
+Power Co.,Utilities,2023-07,100.0
+Fashion Store,Clothing,2023-07,85.0
+Fine Dining,Dining Out,2023-07,200.0
+Cafe A,Coffee,2023-07,20.0
+Snack Haven,Snacks,2023-07,15.0
+Gym Fit,Fitness,2023-07,60.75
+Gizmo Store,Electronics,2023-07,75.0
+Restaurant Y,Dining Out,2023-07,22.0
+Local Market,Groceries,2023-08,195.0
+Restaurant X,Dining Out,2023-08,28.0
+Cafe A,Coffee,2023-08,35.0
+Cineplex,Movies,2023-08,40.35
+Book Emporium,Books,2023-08,45.0
+Brew Haven,Coffee,2023-08,36.0
+Decor Dreams,Home Decor,2023-08,190.0
+Fashion Store,Clothing,2023-08,95.0
+Tech World,Electronics,2023-08,85.0
+Supermart,Groceries,2023-08,155.0
+Trendy Boutique,Clothing,2023-08,90.0
+Gizmo Store,Electronics,2023-08,75.0
+Gym Fit,Fitness,2023-08,101.1
+Restaurant Y,Dining Out,2023-08,62.35
+Fine Dining,Dining Out,2023-08,380.5
+Snack Haven,Snacks,2023-08,15.0
+Restaurant Y,Dining Out,2023-09,22.0
+Snack Haven,Snacks,2023-09,15.0
+Supermart,Groceries,2023-09,80.5
+Book Emporium,Books,2023-09,50.0
+Tech World,Electronics,2023-09,30.0
+Restaurant X,Dining Out,2023-09,35.0
+Fine Dining,Dining Out,2023-09,200.0
+Gizmo Store,Electronics,2023-09,75.0
+Fashion Store,Clothing,2023-09,85.0
+Trendy Boutique,Clothing,2023-09,90.0
+Cafe A,Coffee,2023-09,20.0
+Decor Dreams,Home Decor,2023-09,120.0
+Gym Fit,Fitness,2023-09,60.75
+Cineplex,Movies,2023-09,40.35
+Power Co.,Utilities,2023-09,100.0
+Brew Haven,Coffee,2023-09,18.0
+Local Market,Groceries,2023-09,80.5
+Book Emporium,Books,2023-10,45.0
+Decor Dreams,Home Decor,2023-10,190.0
+Snack Haven,Snacks,2023-10,15.0
+Fashion Store,Clothing,2023-10,95.0
+Trendy Boutique,Clothing,2023-10,90.0
+Fine Dining,Dining Out,2023-10,380.5
+Supermart,Groceries,2023-10,155.0
+Restaurant X,Dining Out,2023-10,28.0
+Gizmo Store,Electronics,2023-10,75.0
+Restaurant Y,Dining Out,2023-10,62.35
+Tech World,Electronics,2023-10,85.0
+Gym Fit,Fitness,2023-10,101.1
+Local Market,Groceries,2023-10,195.0
+Cineplex,Movies,2023-10,40.35
+Brew Haven,Coffee,2023-10,36.0
+Cafe A,Coffee,2023-10,35.0
+Supermart,Groceries,2023-11,80.5
+Tech World,Electronics,2023-11,30.0
+Cineplex,Movies,2023-11,40.35
+Brew Haven,Coffee,2023-11,18.0
+Trendy Boutique,Clothing,2023-11,90.0
+Fine Dining,Dining Out,2023-11,200.0
+Book Emporium,Books,2023-11,50.0
+Gym Fit,Fitness,2023-11,60.75
+Cafe A,Coffee,2023-11,20.0
+Local Market,Groceries,2023-11,80.5
+Restaurant X,Dining Out,2023-11,35.0
+Power Co.,Utilities,2023-11,100.0
+Restaurant Y,Dining Out,2023-11,22.0
+Decor Dreams,Home Decor,2023-11,120.0
+Snack Haven,Snacks,2023-11,15.0
+Fashion Store,Clothing,2023-11,85.0
+Gizmo Store,Electronics,2023-11,75.0
+Fine Dining,Dining Out,2023-12,380.5
+Fashion Store,Clothing,2023-12,95.0
+Cafe A,Coffee,2023-12,35.0
+Decor Dreams,Home Decor,2023-12,190.0
+Cineplex,Movies,2023-12,40.35
+Snack Haven,Snacks,2023-12,15.0
+Gizmo Store,Electronics,2023-12,75.0
+Gym Fit,Fitness,2023-12,101.1
+Local Market,Groceries,2023-12,195.0
+Brew Haven,Coffee,2023-12,36.0
+Restaurant X,Dining Out,2023-12,28.0
+Supermart,Groceries,2023-12,155.0
+Restaurant Y,Dining Out,2023-12,62.35
+Book Emporium,Books,2023-12,45.0
+Tech World,Electronics,2023-12,85.0
+Trendy Boutique,Clothing,2023-12,90.0
