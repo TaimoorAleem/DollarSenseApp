@@ -1,20 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css'
-import { Button } from './components/ui/button';
+import WelcomePage from './pages/WelcomePage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import Dashboard from './pages/Dashboard';
+import YearlyReport from './pages/YearlyReport';
 
 function App() {
   return (
-    <div className="flex flex-col h-screen  items-center justify-center">
-      <h1 className="text-2xl font-bold mb-6">Welcome to</h1>
-      <h1 className="text-7xl font-bold mb-10">Dollar Sense</h1>
-      <div className="space-x-2">
-        <Button className="font-semibold py-2 px-4 border-orange-600 hover:bg-orange-600 shadow-orange" variant={'outline'}>
-          Login
-        </Button>
-        <Button className="font-semibold py-2 px-4 border-orange-600 hover:bg-orange-600 shadow-orange" variant={'outline'}>
-          Register
-        </Button>
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<WelcomePage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
   );
 }
 

@@ -73,7 +73,7 @@ module.exports = {
       },
       boxShadow: {
         'orange': '0 4px 14px 0 rgba(255, 165, 0, 0.25)', // Example RGBA orange shadow
-      }
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
