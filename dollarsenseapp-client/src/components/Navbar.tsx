@@ -10,10 +10,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex items-center space-x-9">
-          <Link to="/about" className="text-foreground hover:text-primary active:text-primary">
+          <Link to="#" className="text-foreground hover:text-primary active:text-primary">
             About
           </Link>
-          <Link to="/profile" className="text-foreground hover:text-primary active:text-primary">
+          <Link to="#" className="text-foreground hover:text-primary active:text-primary">
             Profile
           </Link>
         </div>
